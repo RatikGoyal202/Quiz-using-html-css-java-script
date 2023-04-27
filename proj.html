@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Quiz</title>
+</head>
+<body>
+   
+    <div id="front01">
+        <div id="font01">
+            <h2>True/False Quiz</h2><br><text><text id="number1" style="font-size: 30px"></text></text><br>
+            <br>
+            <text><button id="score01" onclick="fnc()">Help</button></text><br>
+
+            <hr>
+            <div id="disappear01">
+                <button class="button01" onclick="start1()">Start</button>
+            </div>
+            <p id="question"></p>
+            <p id="options"></p>
+            <p id="answer1"></p>
+            <p id="next2"></p>
+        </div>
+    </div>
+
+    <style>
+
+        #front01 {
+            border-radius: 5px;
+            background-color: white;
+            border: 2px solid black;
+            height: 400px;
+            width: 400px;
+            margin: auto;
+        }
+
+        .button01 {
+            color: rgb(0, 0, 0);
+            width: 70px;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        #font01 {
+            text-align: center;
+            font-size: large;
+            color: black;
+        }
+        </style>
+    
+    <script src="js.js"></script>
+    
+</body>
+</html>
